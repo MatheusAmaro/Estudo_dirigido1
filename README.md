@@ -1,1 +1,1 @@
-# Estudo_dirigido1
+# Repositorio para realização de atividade da disciplina de programação*
