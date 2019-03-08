@@ -1,16 +1,21 @@
 <?php 
 
-print "Solicite o preço da mercadoria :";
-print "O preço é : ";
+print "Solicite o preço do produto :";
 
-$valor_produto= "int fgets(DNIT)";
-$desconto_produto(p_atual,desc):;
-$valor_desconto=(p_atual*desc)/100;
-$novo_preco=p_atual-valor_desconto;
+print "O preço do produto é : ";
 
-return (novo_preco,valor_desconto);
+$valor_produto=  (int) fgets (STDIN);
 
-p_atual=eval(input("Digite o valor do produto :"))
-desc=eval(input("Digite o valor do desconto :"))
-print("O novo valor do produto e do desconto é : ",desconto_produto(p_atual,desc))
+print"Qual o desconto do produto :";
 
+$desconto_produto= (int) fgets (STDIN);
+
+print"Agora calcule para chegar ao valor com desconto";
+
+$valor_desconto=(valor_produto*desconto_produto)/100;
+
+print"Agora com o desconto já calculado, quantos você ira pagar";
+
+$novo_preco= $preco_atual-$valor_desconto;
+
+print" O valor a pagar pelo produto foi: $novo_preco";
