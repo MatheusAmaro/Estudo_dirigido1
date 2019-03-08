@@ -2,12 +2,13 @@
 
 print"Escreva o valor do sálario :";
 
-$salario= input (Digite o valor: ) ;
+$salario= (int) fgets (STDIN); 
 
-$aumento= input (Digite o valor: );
+$aumento= (int) fgets (STDIN);
 
-$nsalario= (aumento/100.0 * salario) + salario
-$valor_aumento = nsalario - salario
+$novo_salario =($aumento/100.0 * $salario) + $salario;
 
-print "\n Novo salario: ",$nsalario
-print "Aumento: ",#valor_aumento
+$valor_aumento = $novo_salario - $salario;
+
+print " Novo salario foi : $novo_salario ";
+print "O novo salario com aumento: $valor_aumento";
