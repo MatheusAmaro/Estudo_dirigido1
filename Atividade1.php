@@ -1,15 +1,9 @@
 <?php
 
-print"Digite um valor em metros :";
+print "Digite um valor em metros :" ;
+$Me =(int) fgets (STDIN);
 
-$Metros=(int) fgets (STDIN);
-
-print"Agora converta o valor para milimetros :";
-
-$Metros*1000=$mm;
+print "Agora converta o valor para milimetros :"; 
+$Mm = $Me * 1000;  
   
-print"O valor convertido para milimetros é : $mm";
-
-
-
-
+print"O valor convertido para milimetros é : $Mm";
