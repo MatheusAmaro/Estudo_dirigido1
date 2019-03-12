@@ -2,9 +2,14 @@
 
 print "Calcule o tempo de viagem de um carro :";
 
-$dist= float (input(Digite a distancia em Km :));
-$velo= float (input(Digite a velocidade do carro:));
+print "Digite a distancia em Km : ";
 
-tempo= dist/velo
+$dist= (int) fgets (STDIN);
 
-print ("Tempo em horas %.1f' %tempo");
+print "Digite a velocidade do carro: ";
+
+$velo= (int) fgets (STDIN); 
+
+$tempo= $dist/$velo ;
+
+print ("O tempo da viagem de carro foi $tempo ");
