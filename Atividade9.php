@@ -21,7 +21,7 @@ $lata_rendimento=108;
 
 #galao
 $galao_preco=25;
-$galao_rendimento=21.6;
+$galao_rendimento=21.6;//3,6*6//
 
 //Questão (a) comprar apenas latas de 18 litros;//
 
