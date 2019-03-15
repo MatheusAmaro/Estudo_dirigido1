@@ -13,7 +13,7 @@ arredonde os valores para cima, isto é, considere latas cheias. //
 
 <?php
 
-$area_para_pintar = 10;
+$area= 10;
 
 #lata
 $lata_preco=80;
@@ -23,7 +23,7 @@ $lata_rendimento=108;
 $galao_preco=25;
 $galao_rendimento=21.6;
 
-print"Questão (a): Compra apenas latas de 18 litros";
+//Questão (a) comprar apenas latas de 18 litros;//
 
 $lata_redimento=108;
 $lata_custo =$latas_gtd * $lata_preco;
@@ -31,5 +31,11 @@ $lata_gtd= ceil($area/$lata_rendimento);
 
 print $lata_gta;
 
- 
 
+//Questão (b) comprar apenas galões de 3,6 litros;//
+
+$galao_redimento= 21.6;
+$galao_custo=$galao_gtd * $galao_preco;
+$galao_gtd= ceil($area/$galao_redimento);
+
+//Questão (c) misturar latas e galões, de forma que o preço seja o menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere as latas cheias;//
