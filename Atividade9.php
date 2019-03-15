@@ -11,14 +11,25 @@ c. misturar latas e galões, de forma que o preço seja o menor. Acrescente 10% 
 arredonde os valores para cima, isto é, considere latas cheias. //
 -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- 
 
-  
-print " Qual será o tamanho em metros quadrados da área a ser pintada :";
-$area = (int) fgets (STDIN);
+<?php
 
-print "Lembre-se que a cobertura da tinta é de 1 litro para cada seis metros.";
-print " 18 litros de tinta em lata custam R$80,00 .";
-print " 3,6 litros em galões custam R$25,00.";
+$area_para_pintar = 10;
 
+#lata
+$lata_preco=80;
+$lata_rendimento=108;
+
+#galao
+$galao_preco=25;
+$galao_rendimento=21.6;
+
+print"Questão (a): Compra apenas latas de 18 litros";
+
+$lata_redimento=108;
+$lata_custo =$latas_gtd * $lata_preco;
+$lata_gtd= ceil($area/$lata_rendimento);
+
+print $lata_gta;
 
  
 
