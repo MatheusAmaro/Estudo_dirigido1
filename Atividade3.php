@@ -4,6 +4,8 @@ print"Escreva o valor do sálario :";
 
 $salario= (int) fgets (STDIN); 
 
+print"Agora coloque a porcentagel de aumento";
+
 $aumento= (int) fgets (STDIN);
 
 $novo_salario =($aumento/100.0 * $salario) + $salario;
